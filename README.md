@@ -2,7 +2,7 @@
 
 A clean, modern, and responsive website template with a minimalist black and white design aesthetic. This project focuses on elegant typography, thoughtful spacing, and subtle animations to create a sophisticated user experience.
 
-![Minimalist Website Preview](https://placehold.co/1200x630/f0f0f0/1a1a1a?text=Minimalist+Website)
+![Minimalist Website Preview](https://i.imgur.com/EjWrVM4.png)
 
 ## Features
 
