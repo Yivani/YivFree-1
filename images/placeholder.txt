@@ -1,0 +1,2 @@
+This folder contains website images.
+Replace placeholder images with actual content when available.

@@ -1,0 +1,121 @@
+/* Variables & Base Styles */
+:root {
+  --accent-color: #333333;
+  --bg-color: #f0f0f0;
+  --dark-gray: #444444;
+  --light-gray: #e0e0e0;
+  --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --text-color: #1a1a1a;
+  --transition: all 0.3s ease;
+  --container-width: 1200px;
+  --section-spacing: 8rem;
+  --header-font: "Playfair Display", serif;
+  --body-font: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--body-font);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: var(--container-width);
+  padding: 0 5%;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 1.8rem;
+}
+
+.section-title {
+  margin-bottom: 3.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.section-title::after {
+  background-color: var(--text-color);
+  bottom: 0;
+  content: "";
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 60px;
+}
+
+blockquote {
+  border-left: 3px solid var(--text-color);
+  font-family: var(--header-font);
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 3rem 0;
+  padding-left: 2rem;
+}
+
+blockquote cite {
+  display: block;
+  font-family: var(--body-font);
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
