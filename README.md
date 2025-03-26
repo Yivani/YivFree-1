@@ -2,6 +2,8 @@
 
 A clean, modern, and responsive website template with a minimalist black and white design aesthetic. This project focuses on elegant typography, thoughtful spacing, and subtle animations to create a sophisticated user experience.
 
+Preview: https://yivani.github.io/YivFree-1/
+
 ![Minimalist Website Preview](https://i.imgur.com/EjWrVM4.png)
 
 ## Features
